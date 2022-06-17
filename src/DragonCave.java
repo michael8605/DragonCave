@@ -23,7 +23,17 @@ public class DragonCave {
                     "He opens his jaws and...\n" +
                     "And Laugh saying: Take some of my Treasures!\n");
         } else {
-            System.out.println("invalid Input");
+            //System.out.println("invalid Input");
+            throw new IllegalArgumentException("Caught Exception: invalid Input, Must be 1 or 2");
         }
+        //try {
+            //boolean results= input.equals("1") || input.equals("2");
+           // System.out.println(Integer.parseInt(input));
+
+       // } catch (Exception e){
+        //    System.out.println( "Caught Exception: invalid Input, Must be 1 or 2");
+        //}
+
+
     };
 }
